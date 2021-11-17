@@ -5,6 +5,12 @@
 
 body {
     background-color: #EBE7E4;
+    background-image: linear-gradient(#CFC6C0, white);
+    background-image: linear-gradient(#E6E2DF, white);
+}
+
+#menu {
+    width: 20px;
 }
 
 #menu ul {
@@ -19,9 +25,6 @@ body {
     display: inline-block;
     margin-top: 30px;
     margin-left: 40px;
-}
-
-#menu li p {
     text-align: center;
     color: #fff;
 }
@@ -33,11 +36,14 @@ body {
 
 .LightBox {
     /* background-color: #30241F; */
-    width: 100%;
+    width: 1349px;
     height: 84px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .BoxHeader {
+    width: 1345px;
     background-color: #3B2C25;
 }
 
@@ -54,7 +60,7 @@ body {
 
 .LightBox-Bot {
     background-color: #30241F;
-    width: 80%;
+    width: 1078px;
     height: 80px;
     margin-left: auto;
     margin-right: auto;
@@ -64,31 +70,41 @@ body {
     margin-left: 350px;
     margin-top: -45px;
     color: #fff;
-    font-family: 'Comfortaa', cursive;
-    margin-bottom: 41px;
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 32px;
+    width: 50px;
+}
+
+.title h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 45px;
 }
 
 .title h4 {
-    margin-left: 50px;
+    margin-left: 55px;
+    width: 50px;
+    font-family: 'Rajdhani', sans-serif;
+    color: yellow;
+    margin-top: -15px;
 }
 
 main {
     margin-left: auto;
     margin-right: auto;
-    background-color: #EEEBE9;
-    width: 80%;
+    background-color: #F7F5F4;
+    width: 1075px;
+    height: 800px;
 }
 
 .contact {
     margin-left: auto;
     margin-right: auto;
-    background-color: #EEEBE9;
     margin-left: 455px;
     padding-top: 30px;
 }
 
 .info {
-    width: 60%;
+    width: 90%;
     margin-top: 15px;
 }
 
@@ -143,7 +159,9 @@ main {
 
 .LightBox-footer {
     height: 152px;
-    width: 100%;
+    width: 1349px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #3B2C25;
 }
 
@@ -151,43 +169,48 @@ main {
     background-color: #30241F;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 1082px;
 }
 
 .lightbox-footer-logo {
     background-color: #251B17;
-    width: 10%;
-    padding-left: 80px;
+    width: 12.2%;
+    padding-left: 70px;
     float: left;
     display: inline-block;
     height: 152px;
 }
 
-.lightbox-footer-tile {
-    display: inline-block;
-    width: 10%;
-    height: 152px;
+.lightbox-footer-logo img {
+    width: 159px;
+    height: 125px;
+    z-index: 1000;
+    position: absolute;
+    margin-left: -40px;
 }
 
 .lightbox-footer-tile {
     display: inline-block;
+    width: 11.3%;
+    height: 152px;
     background-color: #251B17;
-    margin-left: -30px;
     float: left;
+    opacity: 1;
 }
 
 .lightbox-footer-tile h3 {
     display: inline-block;
     color: #fff;
     font-family: 'Rajdhani', sans-serif;
-    padding-top: 80px;
-    margin-left: -4px;
+    margin-left: -68px;
+    margin-top: 70px;
     font-size: 30px;
+    font-size: 45px;
 }
 
 .lightbox-footer-tile h5 {
     display: inline-block;
-    color: #fff;
+    color: yellow;
     font-family: 'Rajdhani', sans-serif;
     padding-top: 80px;
     margin-left: -4px;
@@ -196,21 +219,37 @@ main {
 
 .lightbox-footer-content {
     float: left;
-    width: 60%;
+    width: 756px;
+    background-color: #30241F;
+    height: 152px;
 }
 
-.lightbox-footer-content ul {
-    list-style: none;
-    width: 100%;
-    display: inline-block;
+.lightbox-footer-item1 {
+    width: 40%;
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 80px;
 }
 
-.lightbox-footer-content li {
-    display: inline-block;
-    width: 60%;
+.lightbox-footer-item1 span {
+    color: #fff;
 }
 
-.item-footer {
-    display: inline-block;
-    width: 100%;
+.lightbox-footer-item2 span {
+    color: #fff;
+}
+
+.lightbox-footer-item2 p {
+    color: #a68a7d;
+}
+
+.lightbox-footer-item1 p {
+    color: #a68a7d;
+}
+
+.lightbox-footer-item2 {
+    float: left;
+    width: 41%;
+    padding-top: 90px;
 }
