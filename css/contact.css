@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EBE7E4;
+    background-image: linear-gradient(#CFC6C0, white);
+    background-image: linear-gradient(#E6E2DF, white);
+}
+
+#menu {
+    width: 20px;
+}
+
+#menu ul {
+    list-style: none;
+    margin-left: 800px;
+    position: absolute;
+    z-index: 100;
+    white-space: nowrap;
+}
+
+#menu li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: center;
+    color: #c7b18d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.BoxHeaderTop {
+    height: 53px;
+    background-color: #251B17;
+}
+
+.LightBox {
+    /* background-color: #30241F; */
+    width: 1349px;
+    height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BoxHeader {
+    width: 1345px;
+    background-color: #3B2C25;
+    height: 139px;
+}
+
+.LightboxMain {
+    position: absolute;
+    z-index: 1000;
+    margin-left: 5px;
+    margin-top: -280px;
+}
+
+.nav-bar {
+    position: absolute;
+}
+
+.LightBox-Bot {
+    background-color: #30241F;
+    width: 1072px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    margin-left: 350px;
+    margin-top: -60px;
+    color: #fff;
+    font-family: "duepuntozero";
+    margin-bottom: 30px;
+    width: 50px;
+}
+
+.title h1 {
+    font-family: "duepuntozero";
+    font-size: 68px;
+}
+
+.title h4 {
+    margin-left: 75px;
+    width: 50px;
+    font-family: "duepuntozero";
+    color: #fae1b3;
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F7F5F4;
+    width: 1075px;
+    height: 800px;
+}
+
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 455px;
+    padding-top: 30px;
+    font-family: "duepuntozero";
+}
+
+.info {
+    width: 90%;
+    margin-top: 15px;
+}
+
+.info ul {
+    list-style: none;
+    font-style: bold;
+}
+
+.info .item {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.info li {
+    display: inline-block;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #342f2c;
+    font-size: 13px;
+}
+
+.info p {
+    font-family: "duepuntozero";
+}
+
+.info .item3 {
+    padding-right: 44px;
+}
+
+.resizedTextbox {
+    width: 405px;
+    height: 30px;
+    margin-bottom: 7px;
+}
+
+.from {
+    margin-top: 10px;
+    border-top: 1px solid #000;
+}
+
+.from p {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    color: #645a56;
+}
+
+.addfrom {
+    margin-top: 10px;
+}
+
+.btn {
+    height: 30px;
+    width: 89px;
+    margin-left: 320px;
+    background-color: #cdc4be;
+}
+
+.LightBox-footer {
+    height: 152px;
+    width: 1349px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3B2C25;
+}
+
+.LightBox-footer-center {
+    background-color: #30241F;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1082px;
+}
+
+.lightbox-footer-logo {
+    background-color: #251B17;
+    width: 12.2%;
+    padding-left: 70px;
+    float: left;
+    display: inline-block;
+    height: 152px;
+}
+
+.lightbox-footer-logo img {
+    width: 159px;
+    height: 125px;
+    z-index: 1000;
+    position: absolute;
+    margin-left: -40px;
+}
+
+.lightbox-footer-tile {
+    display: inline-block;
+    width: 11.3%;
+    height: 152px;
+    background-color: #251B17;
+    float: left;
+    opacity: 1;
+}
+
+.lightbox-footer-tile h3 {
+    display: inline-block;
+    color: #fff;
+    font-family: "duepuntozero";
+    margin-left: -68px;
+    margin-top: 70px;
+    font-size: 35px;
+}
+
+.lightbox-footer-tile h5 {
+    display: inline-block;
+    font-family: "duepuntozero";
+    color: #fae1b3;
+    padding-top: 80px;
+    margin-left: 1px;
+    font-size: 18px;
+}
+
+.lightbox-footer-content {
+    float: left;
+    width: 756px;
+    background-color: #30241F;
+    height: 152px;
+}
+
+.lightbox-footer-item1 {
+    width: 40%;
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.lightbox-footer-item1 span {
+    color: #fff;
+}
+
+.lightbox-footer-item2 span {
+    color: #fff;
+}
+
+.lightbox-footer-item2 p {
+    color: #a68a7d;
+}
+
+.lightbox-footer-item1 p {
+    color: #a68a7d;
+}
+
+.lightbox-footer-item2 {
+    float: left;
+    width: 41%;
+    padding-top: 90px;
+}

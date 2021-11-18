@@ -9,49 +9,50 @@ body {
     background-image: linear-gradient(#E6E2DF, white);
 }
 
-#menu {
-    width: 20px;
+.content {
+    padding-left: 400px;
+    padding-top: 42px;
 }
 
 #menu ul {
     list-style: none;
-    margin-left: 800px;
-    position: absolute;
-    z-index: 100;
+    margin-left: 610px;
     white-space: nowrap;
 }
 
 #menu li {
     display: inline-block;
-    margin-top: 30px;
-    margin-left: 40px;
+    margin-top: -40px;
+    margin-left: 75px;
     text-align: center;
-    color: #fff;
+    color: #c7b18d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
 }
 
 .BoxHeaderTop {
-    height: 53px;
+    height: 52px;
+    width: 100%;
     background-color: #251B17;
 }
 
 .LightBox {
     /* background-color: #30241F; */
-    width: 1349px;
+    width: 100%;
     height: 84px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .BoxHeader {
-    width: 1345px;
     background-color: #3B2C25;
 }
 
 .LightboxMain {
     position: absolute;
-    z-index: 1000;
+    z-index: 1;
     margin-left: 5px;
-    margin-top: -280px;
+    margin-top: -125px;
 }
 
 .nav-bar {
@@ -61,7 +62,7 @@ body {
 .LightBox-Bot {
     background-color: #30241F;
     width: 1078px;
-    height: 80px;
+    height: 225px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -71,21 +72,43 @@ body {
     margin-top: -45px;
     color: #fff;
     font-family: 'Rajdhani', sans-serif;
-    margin-bottom: 32px;
-    width: 50px;
+    margin-bottom: 58px;
+    float: left;
+    width: 70px;
 }
 
 .title h1 {
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 45px;
+    font-family: "duepuntozero";
+    font-size: 68px;
+    margin-top: 105px;
 }
 
 .title h4 {
-    margin-left: 55px;
-    width: 50px;
-    font-family: 'Rajdhani', sans-serif;
-    color: yellow;
+    margin-left: 78px;
+    /* width: 50px; */
+    font-family: "duepuntozero";
+    color: #fff;
     margin-top: -15px;
+}
+
+.sologan {
+    width: 480px;
+    margin-left: 520px;
+    color: #a68a7d;
+    border-left: 1px solid #a68a7d;
+    height: 90px;
+    margin-top: 55px;
+    font-family: "helvetica", sans-serif;
+}
+
+.sologan span {
+    color: #fff;
+}
+
+.sologan p {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 18px;
 }
 
 main {
@@ -93,76 +116,173 @@ main {
     margin-right: auto;
     background-color: #F7F5F4;
     width: 1075px;
-    height: 800px;
+    height: 1144px;
+    clear: both;
+    background-color: #EBE7E4;
+    background-image: linear-gradient(#CFC6C0, white);
+    background-image: linear-gradient(#E6E2DF, white);
 }
 
-.contact {
-    margin-left: auto;
-    margin-right: auto;
-    margin-left: 455px;
-    padding-top: 30px;
+.wedo {
+    float: left;
 }
 
-.info {
-    width: 90%;
-    margin-top: 15px;
+.wedo-img {
+    padding-top: 24px;
+    float: left;
 }
 
-.info ul {
+.wedo-img ul {
     list-style: none;
-    font-style: bold;
 }
 
-.info .item {
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 30px;
+.wedo-img li {
+    padding-top: 10px;
+    padding-bottom: 95px;
 }
 
-.info li {
-    display: inline-block;
-    font-style: bold;
+.content {
+    width: 340px;
+    float: left;
+    clear: both;
 }
 
-.info p {
-    font-family: 'Rajdhani', sans-serif;
-}
-
-.info .item3 {
-    padding-right: 44px;
-}
-
-.resizedTextbox {
-    width: 405px;
-    height: 30px;
-    margin-bottom: 7px;
-}
-
-.from {
-    margin-top: 10px;
-    border-top: 1px solid #000;
-}
-
-.from p {
-    margin-top: 10px;
-}
-
-.addfrom {
-    margin-top: 10px;
-}
-
-.btn {
-    height: 30px;
-    width: 89px;
-    margin-left: 320px;
+.content h2 {
+    padding-bottom: 27px;
+    font-family: "duepuntozero";
 }
 
 .LightBox-footer {
     height: 152px;
-    width: 1349px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #3B2C25;
+}
+
+.wedochild {
+    padding-top: 10px;
+    width: 80%;
+    padding-left: 55px;
+    color: #745459;
+}
+
+.wedochild ul {
+    list-style: none;
+}
+
+.wedochild li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.wedochild h3 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: "duepuntozero";
+}
+
+.wedochild p {
+    width: 300px;
+}
+
+.quote {
+    width: 248px;
+    height: 385px;
+    background-color: #eee;
+    position: relative;
+    margin-left: 400px;
+    margin-top: -65px;
+}
+
+.quote:before {
+    content: "";
+    position: absolute;
+    bottom: -35px;
+    left: 111px;
+    border-top: 80px solid #eee;
+    border-right: 4px solid transparent;
+    border-left: 90px solid transparent;
+}
+
+.quote p {
+    padding-bottom: 2px;
+    padding-top: 38px;
+    color: #745459;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    width: 200px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.author {
+    padding-left: 525px;
+    padding-top: 45px;
+}
+
+.author p {
+    width: 115px;
+    font-size: 15px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000
+}
+
+.author span {
+    color: #89451f;
+    font-size: 10px;
+}
+
+.recnt {
+    width: 680px;
+    padding-left: 400px;
+    display: inline-block;
+}
+
+.tileRecent {
+    padding-top: 20px;
+    float: left;
+    width: 150px;
+}
+
+.tileRecent h2 {
+    font-family: "duepuntozero";
+}
+
+.recentImg {
+    float: left;
+    padding-bottom: 28px;
+}
+
+.recentImg ul {
+    padding-left: 380px;
+    width: 120px;
+    float: left;
+}
+
+.recentImg li {
+    list-style: none;
+    padding-top: 20px;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.Banner img {
+    border: 7px solid #fff;
+}
+
+.origin {
+    font-size: 13px;
+    color: #4e4d4d;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 260px;
+    padding-top: 15px;
+}
+
+.origin span {
+    font-style: italic;
 }
 
 .LightBox-footer-center {
@@ -201,20 +321,19 @@ main {
 .lightbox-footer-tile h3 {
     display: inline-block;
     color: #fff;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: "duepuntozero";
     margin-left: -68px;
     margin-top: 70px;
-    font-size: 30px;
-    font-size: 45px;
+    font-size: 36px;
 }
 
 .lightbox-footer-tile h5 {
     display: inline-block;
-    color: yellow;
-    font-family: 'Rajdhani', sans-serif;
     padding-top: 80px;
-    margin-left: -4px;
-    font-size: 15px;
+    margin-left: 1px;
+    font-size: 18px;
+    font-family: "duepuntozero";
+    color: #fae1b3;
 }
 
 .lightbox-footer-content {

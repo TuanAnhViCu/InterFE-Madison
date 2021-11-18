@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    <style type="css/text">
-        @font-face { font-family: 'Duepuntozero'; font-style: normal; font-weight: normal; src: local('Duepuntozero'), url('duepuntozero_regular.woff') format('woff'); }
+    <style type="text/css">
+        @font-face {
+            font-family: "duepuntozero";
+            src: url('./duepuntozero.extralight.otf') format('truetype')
+        }
     </style>
     <title>Document</title>
 </head>
@@ -23,7 +25,8 @@
             <div class="BoxHeaderTop">
                 <div id="menu">
                     <ul class="nav-bar">
-                        <li><img src="./img/home1.png" alt="" class="nav-icon">
+                        <li>
+                            <a href="Home.html"><img src="./img/home1.png" alt="" class="nav-icon"></a>
                             <p>Home</p>
                         </li>
                         <li><img src="./img/bag1.png" alt="" class="nav-icon">
@@ -32,7 +35,8 @@
                         <li><img src="./img/PAINT.png" alt="" class="nav-icon">
                             <p>About</p>
                         </li>
-                        <li><img src="./img/mail1.png" alt="" class="nav-icon">
+                        <li>
+                            <a href="Contact.html"><img src="./img/dencontac1.png"></a>
                             <p>Contact</p>
                         </li>
                     </ul>
@@ -79,7 +83,6 @@
                     <input type="text" class="resizedTextbox">
                     <p>Message</p>
                     <textarea id="w3review" rows="20" cols="53">
-                    At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
                     </textarea>
                     <br>
                     <button type="submit" class="btn">Submit</button>
