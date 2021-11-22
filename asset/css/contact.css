@@ -7,15 +7,18 @@ body {
     background-color: #EBE7E4;
     background-image: linear-gradient(#CFC6C0, white);
     background-image: linear-gradient(#E6E2DF, white);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #menu {
     width: 20px;
+    float: left;
 }
 
 #menu ul {
     list-style: none;
-    margin-left: 800px;
+    margin-left: 700px;
     position: absolute;
     z-index: 100;
     white-space: nowrap;
@@ -23,23 +26,32 @@ body {
 
 #menu li {
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: -35px;
+    padding-right: 76px;
     text-align: center;
     color: #c7b18d;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
 }
 
+#menu .item2 {
+    margin-left: -22px;
+}
+
+#menu p {
+    padding-top: 8px;
+}
+
 .BoxHeaderTop {
-    height: 53px;
+    height: 52px;
     background-color: #251B17;
+    border-bottom: 1px solid #61473d;
 }
 
 .LightBox {
     /* background-color: #30241F; */
     width: 1349px;
-    height: 84px;
+    height: 136px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -47,38 +59,36 @@ body {
 .BoxHeader {
     width: 1345px;
     background-color: #3B2C25;
-    height: 139px;
+    height: 133px;
 }
 
 .LightboxMain {
     position: absolute;
     z-index: 1000;
-    margin-left: 5px;
-    margin-top: -280px;
-}
-
-.nav-bar {
-    position: absolute;
+    margin-left: -36px;
+    margin-top: -275px;
 }
 
 .LightBox-Bot {
     background-color: #30241F;
-    width: 1072px;
-    height: 100px;
+    width: 1000px;
+    height: 79px;
     margin-left: auto;
     margin-right: auto;
+    border-left: 1px solid #61473d;
+    border-right: 1px solid #61473d;
 }
 
 .title {
-    margin-left: 350px;
-    margin-top: -60px;
+    margin-left: 340px;
+    margin-top: -110px;
     color: #fff;
     font-family: "duepuntozero";
-    margin-bottom: 30px;
     width: 50px;
+    margin-bottom: 23px;
 }
 
-.title h1 {
+.title h5 {
     font-family: "duepuntozero";
     font-size: 68px;
 }
@@ -96,21 +106,29 @@ main {
     margin-left: auto;
     margin-right: auto;
     background-color: #F7F5F4;
-    width: 1075px;
-    height: 800px;
+    width: 1000px;
+    height: 905px;
+    border: 1px solid #fff;
 }
 
 .contact {
     margin-left: auto;
     margin-right: auto;
-    margin-left: 455px;
+    margin-left: 345px;
     padding-top: 30px;
     font-family: "duepuntozero";
+    width: 620px;
+}
+
+.contact h1 {
+    font-size: 41px;
+    padding-top: 4px;
+    padding-bottom: 6px;
 }
 
 .info {
-    width: 90%;
-    margin-top: 15px;
+    width: 80%;
+    margin-top: -1px;
 }
 
 .info ul {
@@ -119,9 +137,23 @@ main {
 }
 
 .info .item {
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 30px;
+    padding-left: 5px;
+    padding-right: 55px;
+}
+
+.info span {
+    font-family: "ArialMT";
+    font-size: 13px;
+    padding-left: 23px;
+    color: #645a56;
+}
+
+.info .tel {
+    padding-left: 28px
+}
+
+.info .fax {
+    margin-left: 20px;
 }
 
 .info li {
@@ -130,20 +162,22 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     color: #342f2c;
     font-size: 13px;
+    margin-top: 5px;
 }
 
 .info p {
     font-family: "duepuntozero";
 }
 
-.info .item3 {
-    padding-right: 44px;
+.info .item_space {
+    padding-left: 6px;
 }
 
 .resizedTextbox {
-    width: 405px;
+    width: 465px;
     height: 30px;
-    margin-bottom: 7px;
+    margin-bottom: 3px;
+    margin-top: -1px;
 }
 
 .from {
@@ -152,26 +186,45 @@ main {
 }
 
 .from p {
-    margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    font-style: italic;
+    margin-top: 22px;
+    font-family: "ArialMT";
+    font-size: 15px;
     color: #645a56;
+    padding-left: 5px;
+    padding-bottom: 20px;
 }
 
 .addfrom {
-    margin-top: 10px;
+    margin-top: 45px;
+}
+
+.addfrom p {
+    margin-bottom: -10px;
+    font-size: 11px;
+    color: #645a56;
+}
+
+.addfrom .name_fr {
+    padding-top: 3px;
+}
+
+.addfrom .email_fr {
+    padding-top: -100px;
 }
 
 .btn {
     height: 30px;
-    width: 89px;
-    margin-left: 320px;
-    background-color: #cdc4be;
+    width: 100px;
+    margin-left: 367px;
+    background-color: #cec5bf;
+    margin-top: 18px;
+    color: #30241f;
+    font-size: 11px;
+    font-family: "ArialMT";
 }
 
 .LightBox-footer {
-    height: 152px;
+    height: 130px;
     width: 1349px;
     margin-left: auto;
     margin-right: auto;
@@ -182,30 +235,29 @@ main {
     background-color: #30241F;
     margin-left: auto;
     margin-right: auto;
-    width: 1082px;
+    width: 1000px;
 }
 
 .lightbox-footer-logo {
     background-color: #251B17;
-    width: 12.2%;
+    width: 156px;
     padding-left: 70px;
     float: left;
     display: inline-block;
-    height: 152px;
+    height: 130px;
 }
 
 .lightbox-footer-logo img {
-    width: 159px;
-    height: 125px;
     z-index: 1000;
     position: absolute;
-    margin-left: -40px;
+    margin-top: 5px;
+    margin-left: 25px;
 }
 
 .lightbox-footer-tile {
     display: inline-block;
-    width: 11.3%;
-    height: 152px;
+    width: 120px;
+    height: 130px;
     background-color: #251B17;
     float: left;
     opacity: 1;
@@ -215,8 +267,8 @@ main {
     display: inline-block;
     color: #fff;
     font-family: "duepuntozero";
-    margin-left: -68px;
-    margin-top: 70px;
+    margin-left: -100px;
+    margin-top: 25px;
     font-size: 35px;
 }
 
@@ -224,24 +276,24 @@ main {
     display: inline-block;
     font-family: "duepuntozero";
     color: #fae1b3;
-    padding-top: 80px;
+    padding-top: 20px;
     margin-left: 1px;
     font-size: 18px;
 }
 
 .lightbox-footer-content {
     float: left;
-    width: 756px;
+    width: 654px;
     background-color: #30241F;
-    height: 152px;
+    height: 130px;
+    font-family: "ArialMT";
+    font-size: 11.5px;
 }
 
 .lightbox-footer-item1 {
-    width: 40%;
     float: left;
-    width: 50%;
-    padding-left: 50px;
-    padding-top: 80px;
+    padding-left: 36px;
+    padding-top: 35px;
 }
 
 .lightbox-footer-item1 span {
@@ -262,6 +314,7 @@ main {
 
 .lightbox-footer-item2 {
     float: left;
-    width: 41%;
-    padding-top: 90px;
+    padding-top: 40px;
+    padding-left: 167px;
+    font-size: 11.9px;
 }

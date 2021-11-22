@@ -10,95 +10,127 @@ body {
 }
 
 .content {
-    padding-left: 400px;
-    padding-top: 42px;
+    padding-left: 350px;
+    padding-top: 35px;
+}
+
+#menu {
+    width: 20px;
+    float: left;
 }
 
 #menu ul {
     list-style: none;
-    margin-left: 610px;
+    margin-left: 570px;
     white-space: nowrap;
+    z-index: 100;
+    position: absolute;
 }
 
 #menu li {
     display: inline-block;
-    margin-top: -40px;
-    margin-left: 75px;
+    margin-left: 84px;
     text-align: center;
     color: #c7b18d;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
+    margin-top: -88px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+#menu .item1 {
+    padding-left: 27px;
+    padding-top: -1000px;
+}
+
+#menu .item4 {
+    margin-left: 75px;
+}
+
+#menu .item2 {
+    width: 50px;
+}
+
+#menu .item2 p {
+    padding-top: 0px;
+    padding-left: 37px;
+}
+
+#menu p {
+    margin-top: 9.5px;
 }
 
 .BoxHeaderTop {
     height: 52px;
-    width: 100%;
     background-color: #251B17;
+    border-bottom: 1px solid #61473d;
 }
 
 .LightBox {
     /* background-color: #30241F; */
-    width: 100%;
     height: 84px;
+    width: 1349px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 185px;
 }
 
 .BoxHeader {
+    width: 1345px;
     background-color: #3B2C25;
 }
 
 .LightboxMain {
     position: absolute;
-    z-index: 1;
-    margin-left: 5px;
-    margin-top: -125px;
-}
-
-.nav-bar {
-    position: absolute;
+    z-index: 100;
+    margin-left: -40px;
+    margin-top: -143px;
 }
 
 .LightBox-Bot {
     background-color: #30241F;
-    width: 1078px;
-    height: 225px;
+    width: 1004px;
+    height: 214px;
     margin-left: auto;
     margin-right: auto;
+    border-left: 1px solid #61473d;
+    border-right: 1px solid #61473d;
+    border-bottom: 1px solid #61473d;
 }
 
 .title {
-    margin-left: 350px;
-    margin-top: -45px;
+    margin-left: 335px;
+    margin-top: 22px;
     color: #fff;
     font-family: 'Rajdhani', sans-serif;
-    margin-bottom: 58px;
-    float: left;
+    margin-bottom: 48px;
     width: 70px;
 }
 
-.title h1 {
-    font-family: "duepuntozero";
+.title p {
+    font-family: "duepuntozero", sans-serif;
     font-size: 68px;
-    margin-top: 105px;
+    margin-top: -150px;
 }
 
 .title h4 {
-    margin-left: 78px;
+    margin-left: 80px;
     /* width: 50px; */
     font-family: "duepuntozero";
     color: #fff;
-    margin-top: -15px;
+    margin-top: -12px;
+    font-size: 18px;
 }
 
 .sologan {
     width: 480px;
-    margin-left: 520px;
+    margin-left: 490px;
     color: #a68a7d;
     border-left: 1px solid #a68a7d;
     height: 90px;
-    margin-top: 55px;
-    font-family: "helvetica", sans-serif;
+    margin-top: -15px;
+    font-family: "helvetica";
 }
 
 .sologan span {
@@ -106,21 +138,20 @@ body {
 }
 
 .sologan p {
-    padding-left: 20px;
-    padding-top: 10px;
+    padding-left: 25px;
+    margin-top: -128px;
     font-size: 18px;
+    padding-top: 5px;
 }
 
 main {
     margin-left: auto;
     margin-right: auto;
-    background-color: #F7F5F4;
-    width: 1075px;
-    height: 1144px;
+    width: 1004px;
+    height: 1130px;
     clear: both;
-    background-color: #EBE7E4;
-    background-image: linear-gradient(#CFC6C0, white);
-    background-image: linear-gradient(#E6E2DF, white);
+    background-color: #f7f5f4;
+    border: 1px solid #fff;
 }
 
 .wedo {
@@ -128,7 +159,7 @@ main {
 }
 
 .wedo-img {
-    padding-top: 24px;
+    padding-top: 25px;
     float: left;
 }
 
@@ -138,7 +169,7 @@ main {
 
 .wedo-img li {
     padding-top: 10px;
-    padding-bottom: 95px;
+    padding-bottom: 98px;
 }
 
 .content {
@@ -148,23 +179,26 @@ main {
 }
 
 .content h2 {
-    padding-bottom: 27px;
+    padding-bottom: 18px;
     font-family: "duepuntozero";
+    font-size: 41px;
+    color: #2f231e;
 }
 
 .LightBox-footer {
-    height: 152px;
-    width: 100%;
+    height: 94px;
+    width: 1349px;
     margin-left: auto;
     margin-right: auto;
     background-color: #3B2C25;
 }
 
 .wedochild {
-    padding-top: 10px;
+    padding-top: 24px;
     width: 80%;
     padding-left: 55px;
     color: #745459;
+    padding-bottom: 30px;
 }
 
 .wedochild ul {
@@ -178,7 +212,7 @@ main {
 
 .wedochild h3 {
     font-size: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-family: "duepuntozero";
 }
 
@@ -188,10 +222,10 @@ main {
 
 .quote {
     width: 248px;
-    height: 385px;
+    height: 405px;
     background-color: #eee;
     position: relative;
-    margin-left: 400px;
+    margin-left: 370px;
     margin-top: -65px;
 }
 
@@ -202,12 +236,11 @@ main {
     left: 111px;
     border-top: 80px solid #eee;
     border-right: 4px solid transparent;
-    border-left: 90px solid transparent;
+    border-left: 87px solid transparent;
 }
 
 .quote p {
-    padding-bottom: 2px;
-    padding-top: 38px;
+    padding-top: 30px;
     color: #745459;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
@@ -215,10 +248,11 @@ main {
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 20px;
 }
 
 .author {
-    padding-left: 525px;
+    padding-left: 495px;
     padding-top: 45px;
 }
 
@@ -236,19 +270,23 @@ main {
 }
 
 .recnt {
-    width: 680px;
-    padding-left: 400px;
+    width: 780px;
+    padding-left: 360px;
     display: inline-block;
 }
 
 .tileRecent {
     padding-top: 20px;
     float: left;
-    width: 150px;
+    width: 210px;
 }
 
-.tileRecent h2 {
+.tileRecent p {
     font-family: "duepuntozero";
+    font-size: 41px;
+    color: #2f231e;
+    display: inline-block;
+    padding-top: 5px;
 }
 
 .recentImg {
@@ -257,14 +295,14 @@ main {
 }
 
 .recentImg ul {
-    padding-left: 380px;
+    padding-left: 292px;
     width: 120px;
     float: left;
 }
 
 .recentImg li {
     list-style: none;
-    padding-top: 20px;
+    padding-top: 38px;
     display: inline-block;
     padding-right: 5px;
 }
@@ -277,8 +315,8 @@ main {
     font-size: 13px;
     color: #4e4d4d;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 260px;
-    padding-top: 15px;
+    padding-left: 240px;
+    padding-top: 12px;
 }
 
 .origin span {
@@ -289,47 +327,48 @@ main {
     background-color: #30241F;
     margin-left: auto;
     margin-right: auto;
-    width: 1082px;
+    width: 1004px;
 }
 
 .lightbox-footer-logo {
     background-color: #251B17;
-    width: 12.2%;
-    padding-left: 70px;
+    width: 155px;
+    padding-left: 60px;
     float: left;
     display: inline-block;
-    height: 152px;
+    height: 94px;
+    border-left: 1px solid #61473d;
 }
 
 .lightbox-footer-logo img {
-    width: 159px;
-    height: 125px;
     z-index: 1000;
     position: absolute;
-    margin-left: -40px;
+    margin-left: 35px;
+    margin-top: 8px;
 }
 
 .lightbox-footer-tile {
     display: inline-block;
-    width: 11.3%;
-    height: 152px;
+    width: 130px;
+    height: 94px;
     background-color: #251B17;
     float: left;
     opacity: 1;
+    border-right: 1px solid #61473d;
 }
 
 .lightbox-footer-tile h3 {
+    margin-top: 28px;
     display: inline-block;
     color: #fff;
     font-family: "duepuntozero";
-    margin-left: -68px;
-    margin-top: 70px;
+    margin-left: -88px;
     font-size: 36px;
 }
 
 .lightbox-footer-tile h5 {
+    margin-top: 32px;
     display: inline-block;
-    padding-top: 80px;
     margin-left: 1px;
     font-size: 18px;
     font-family: "duepuntozero";
@@ -338,17 +377,20 @@ main {
 
 .lightbox-footer-content {
     float: left;
-    width: 756px;
+    width: 655px;
     background-color: #30241F;
-    height: 152px;
+    height: 94px;
+    border-right: 1px solid #61473d;
 }
 
 .lightbox-footer-item1 {
     width: 40%;
     float: left;
     width: 50%;
-    padding-left: 50px;
-    padding-top: 80px;
+    padding-left: 35px;
+    padding-top: 38px;
+    font-family: "ArialMT";
+    font-size: 11px;
 }
 
 .lightbox-footer-item1 span {
@@ -370,5 +412,8 @@ main {
 .lightbox-footer-item2 {
     float: left;
     width: 41%;
-    padding-top: 90px;
+    padding-top: 42px;
+    font-family: "ArialMT";
+    font-size: 11px;
+    padding-left: 23px;
 }
