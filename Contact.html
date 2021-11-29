@@ -5,106 +5,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/css/contact.css">
-    <style type="text/css">
-        @font-face {
-            font-family: "duepuntozero";
-            src: url('./asset/font/Duepuntozero-ExtraLightTrial.ttf') format('truetype');
-            font-weight: normal;
-            font-family: "helvetica";
-            src: url('./asset/font/Helvetica\ LT\ 23\ Ultra\ Light\ Extended.ttf') format('truetype');
-            font-family: "ArialMT";
-            src: url('./asset/font/ARIALMT.ttf') format('truetype');
-        }
-    </style>
     <title>Contact</title>
 </head>
 
 <body>
-    <header class="LightBox">
-        <div class="BoxHeader">
-            <div class="BoxHeaderTop">
-                <div id="menu">
-                    <ul class="nav-bar">
-                        <li class="item1">
-                            <a href="Home.html"><img src="./asset/img/home1.png" alt="" class="nav-icon"></a>
-                            <p>HOME</p>
-                        </li>
-                        <li class="item1"><img src="./asset/img/bag1.png" alt="" class="nav-icon">
-                            <p>WORK</p>
-                        </li>
-                        <li class="item1"><img src="./asset/img/PAINT.png" alt="" class="nav-icon">
-                            <p>ABOUT</p>
-                        </li>
-                        <li class="item2">
-                            <a href="Contact.html"><img src="./asset/img/filedenthu2.png" class="mail nav-icon"></a>
-                            <p>CONTACT</p>
-                        </li>
-                    </ul>
-                </div>
+    <header class="lightbox">
+        <div class="lightbox__boxheader">
+            <div class="lightbox__boxheader--top"></div>
+            <div class="lightbox__boxheader--menu">
+                <ul>
+                    <li class="boxheader__menu--item-2">
+                        <a href="Home.html"><img src="./asset/img/fileden4.png" alt="" class="nav-icon"></a>
+                        <p>home</p>
+                    </li>
+                    <li class="boxheader__menu--item-1"><img src="./asset/img/bag1.png" alt="" class="nav-icon">
+                        <p>work</p>
+                    </li>
+                    <li class="boxheader__menu--item-3"><img src="./asset/img/PAINT.png" alt="" class="nav-icon">
+                        <p>about</p>
+                    </li>
+                    <li class="boxheader__menu--item-4">
+                        <a href="Contact.html"><img src="./asset/img/mail1.png" class="mail nav-icon"></a>
+                        <p>contact</p>
+                    </li>
+                </ul>
             </div>
-            <div class="LightBox-Bot">
-                <div class="LightboxMain">
-                    <img src="./asset/img/logo.png" alt="" class="logshadow">
+            <div class="lightbox__boxheader--logo">
+                <div class="boxheader__logo--image">
+                    <img src="./asset/img/logo.png" alt="">
                 </div>
             </div>
         </div>
-        <div class="title">
-            <h5>Light</h5>
-            <h4>BOX</h4>
+        <div class="lightbox__name--company">
+            <h1>Light</h1>
+            <h4>box</h4>
         </div>
     </header>
     <main>
         <div class="contact">
             <h1>Contact Us</h1>
-            <div class="from">
+            <div class="contact__from">
                 <p>Reach us by comleteing the form below to send an email message, or use any if these details</p>
-                <div class="info">
+                <div class="contact__from--info">
                     <ul>
-                        <li class="item"><b>Phone:<span class="tel">+555 555 9555</span></b>
+                        <li class="from__info--item-1"><b>Phone:<span class="tel">+555 555 9555</span></b>
                         </li>
-                        <li class="item"><b>Skype: <span>LightBox</span></b>
+                        <li class="from__info--item-2"><b>Skype: <span>lightbox</span></b>
 
                         </li>
-                        <li class="item"><b>Fax: <span class="fax"> +555 555 9555</span></b>
+                        <li class="from__info--item-3"><b>Fax: <span class="fax"> +555 555 9555</span></b>
 
                         </li>
-                        <li class="item_space"><b>Twitter: <span>@LightBox</span></b>
+                        <li class="from__info--item-4"><b>Twitter: <span>@lightbox</span></b>
                         </li>
                     </ul>
                 </div>
-                <div class="addfrom">
-                    <p class="name_fr">NAME</p>
-                    <input type="text" class="resizedTextbox">
-                    <p class="email_fr">EMAIL</p>
-                    <input type="text" class="resizedTextbox">
-                    <p class="phone_fr">PHONE</p>
-                    <input type="text" class="resizedTextbox">
-                    <p class="message_fr">MESSAGE</p>
-                    <textarea id="areatext" rows="14" cols="61">
+                <div class="contact__from--add">
+                    <p class="contact__from--name">name</p>
+                    <input type="text" class="from--input">
+                    <p class="contact__from--email">email</p>
+                    <input type="text" class="from--input">
+                    <p class="contact__from--phone">phone</p>
+                    <input type="text" class="from--input">
+                    <p class="contact__from--message">message</p>
+                    <textarea class="areatext" rows="14" cols="61">
                     </textarea>
                     <br>
-                    <button type="submit" class="btn">SUBMIT</button>
+                    <button type="submit" class="btn">submit</button>
                 </div>
             </div>
     </main>
-    <footer class="LightBox-footer">
-        <div class="LightBox-footer-center">
-            <div class="lightbox-footer-logo">
+    <footer class="boxfooter">
+        <div class="boxfooter__center">
+            <div class="boxfooter__center--logo">
                 <img src="./asset/img/boxfooter.png">
             </div>
-            <div class="lightbox-footer-tile">
-                <h3>Light
-                    <h5><sup>BOX</sup></h5>
+            <div class="boxfooter__center--namecompany">
+                <h3>light
+                    <h5><sup>box</sup></h5>
                 </h3>
             </div>
-            <div class="lightbox-footer-content">
-                <div class="lightbox-footer-item1">
-                    <p class="ft1">FONT VIA <span> DAFONT (DUPUNTOZERO)</span>
-                        <p>ICONS BY <span>ICONEDEN</span></p>
+            <div class="boxfooter__center--src">
+                <div class="center__src--item-1">
+                    <p class="ft1">font via <span>dafont (dupuntozero)</span>
+                        <p>icon by <span>iconden</span></p>
                     </p>
                 </div>
-                <div class="lightbox-footer-item2">
-                    <p>COPPYRIGHT (C) 2009 <span>OCKABLEPRESS</span></p>
+                <div class="center__src--item-2">
+                    <p>copyright (C) 2009 <span>rockablepress</span></p>
                 </div>
             </div>
         </div>
