@@ -298,7 +298,7 @@ main {
     color: #30241f;
     font-size: 11px;
     font-family: "ArialMT";
-    border: 0;
+    border: 1px solid #aba198;
     text-transform: uppercase;
 }
 
