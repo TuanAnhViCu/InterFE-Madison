@@ -165,6 +165,7 @@ body {
     color: #fff;
     width: 70px;
     margin: 28px 0 48px 335px;
+    text-transform: capitalize;
 }
 
 .lightbox__name--company h1 {
@@ -174,7 +175,7 @@ body {
     font-weight: 200 !important;
 }
 
-.lightbox__name--company h4 {
+.lightbox__name--company p {
     font-family: "duepuntozero";
     color: #fff;
     font-size: 18px;
